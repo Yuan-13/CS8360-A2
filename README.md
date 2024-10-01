@@ -5,7 +5,7 @@ Fish identification can be a time-consuming task, and image classification is cu
 To gain a better understanding of the data distribution in this dataset, I performed some exploratory data analysis (EDA). First, I created a graph showing the fish count versus fish species to examine whether the dataset is evenly distributed across species. The image below illustrates the results. From the line graph, it's clear that the distribution is relatively even. The difference between the majority and minority classes is within 2%.
 <p align="center"><img width="75%" src="./Fish Species distritbution.png" /></p>
 
-Secondly, we need to determine which metric is the most effective in distinguishing fish categories. To explore this, I plotted three graphs showing length, weight, and the weight-to-length ratio against species. From the images below, it's clear that it is difficult to identify a single metric as the most distinguishable. There is significant overlap between the metrics, and the variance is quite apparent.
+Secondly, in order to determine which metric is the most effective in distinguishing fish categories, I plotted three graphs showing length, weight, and the weight-to-length ratio against species. From the images below, it's clear that it is difficult to identify a single metric as the most distinguishable. There is significant overlap between the metrics, and the variance is quite apparent.
 <p align="center"><img width="100%" src="./length.png" /></p>
 <p align="center"><img width="100%" src="./weight.png" /></p>
 <p align="center"><img width="100%" src="./ratio.png" /></p>
